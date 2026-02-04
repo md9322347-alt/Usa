@@ -1,0 +1,28 @@
+{
+  "name": "telegram-image-to-phone-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot that extracts phone numbers from images using OCR",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "ocr",
+    "phone-number",
+    "tesseract"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "telegraf": "^4.16.3",
+    "tesseract.js": "^5.0.0",
+    "libphonenumber-js": "^1.10.49"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=7.0.0"
+  }
+}
